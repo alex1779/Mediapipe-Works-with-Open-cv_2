@@ -1,4 +1,4 @@
-# Mediapipe Works
+# Mediapipe-Works-with-Open-cv_2
 From: https://google.github.io/mediapipe/
 
 ## Installation on Windows using Anaconda
