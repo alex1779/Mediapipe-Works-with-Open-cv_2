@@ -3,58 +3,42 @@ From: https://google.github.io/mediapipe/
 
 ## Installation on Windows using Anaconda
 ```
-conda create -n mediapipeWorksWithOpenCv -y && conda activate mediapipeWorksWithOpenCv && conda install python=3.9.7 -y
-git clone https://github.com/alex1779/Mediapipe-Works-with-Open-cv.git
-cd mediapipeWorks
+conda create -n Mediapipe-Works-with-Open-cv_2 -y && conda activate Mediapipe-Works-with-Open-cv_2 && conda install python=3.9.7 -y
+git clone https://github.com/alex1779/Mediapipe-Works-with-Open-cv_2.git
+cd Mediapipe-Works-with-Open-cv_2
 pip install -r requirements.txt
 ```
 
-## How to run
-
-
+## How to run Aligned Face Horizontal
 
 ```
-python drawLandmarkPoints_webcam.py
+python alignedFaceHorizontal_image.py -i input/test1.jpg
 ```
  *** looks like below
 
-![Face Mesh](https://github.com/alex1779/Mediapipe-Works-with-Open-cv/blob/master/imgs/01.gif)
-
-
-```
-python drawTesselation_webcam.py.py
-```
- *** looks like below
-
-![Face Mesh](https://github.com/alex1779/Mediapipe-Works-with-Open-cv/blob/master/imgs/02.gif)
-
+![Example1](https://github.com/alex1779/Mediapipe-Works-with-Open-cv_2/blob/master/imgs/alignedFaceHorizontal_image_example1.jpg)
+![Example2](https://github.com/alex1779/Mediapipe-Works-with-Open-cv_2/blob/master/imgs/alignedFaceHorizontal_image_example2.jpg)
+![Example3](https://github.com/alex1779/Mediapipe-Works-with-Open-cv_2/blob/master/imgs/alignedFaceHorizontal_image_example3.jpg)
 
 ```
-python drawContourFace_webcam.py
+you can see the result in 'output' folder.
 ```
- *** looks like below
 
-![Face Mesh](https://github.com/alex1779/Mediapipe-Works-with-Open-cv/blob/master/imgs/03.gif)
 
+## How to run Face Aligned Without Background
 
 ```
-python alignedFaceHorizontal_webcam.py
+python face_aligned_without_background.py -i input/test1.jpg
 ```
  *** looks like below
 
-![Face Mesh](https://github.com/alex1779/Mediapipe-Works-with-Open-cv/blob/master/imgs/04.gif)
-
+![Example1](https://github.com/alex1779/Mediapipe-Works-with-Open-cv_2/blob/master/imgs/face_aligned_without_background_example1.jpg)
+![Example2](https://github.com/alex1779/Mediapipe-Works-with-Open-cv_2/blob/master/imgs/face_aligned_without_background_example2.jpg)
+![Example3](https://github.com/alex1779/Mediapipe-Works-with-Open-cv_2/blob/master/imgs/face_aligned_without_background_example3.jpg)
 
 ```
-python detect_side_face_webcam
+you can see the result in 'output' folder.
 ```
- *** looks like below
-
-![Face Mesh](https://github.com/alex1779/Mediapipe-Works-with-Open-cv/blob/master/imgs/05.gif)
-
-
-## How works
-
 
 
 
